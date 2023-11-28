@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "cypress": "^13.5.0"
+  },
+  "name": "demoqa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "cypress-mochawesome-reporter": "^3.7.0",
+    "eslint-plugin-cypress": "^2.15.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "html-report": "cypress run --spec C:/Users/r2vm/OneDrive/Escritorio/All/Code/Codes/Cypress/demoqa/cypress/e2e/Test/textBoxTest4.cy.js --browser chrome -- headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
