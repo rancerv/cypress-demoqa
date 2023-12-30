@@ -28,69 +28,6 @@ class Elements {
         dynamicPropertiesBtn : () => cy.get(":nth-child(1) > .element-list > .menu-list > #item-8"),
     }
     
-    clickElements(){
-        this.element.elementsBtn().click();
-    }
-
-    goToCheckBox(){
-        this.element.checkBoxBtn().click();
-    }
-
-    clickHomeCheckBox(){
-        this.element.checkBoxBtn().click();
-        this.element.homeCheckBox().click(); 
-    }
-
-    unclickHomeCheckBox(){
-        this.element.homeCheckBox().click();
-    }
-
-    clickDesktopCheckBox(){
-        this.element.checkBoxBtn().click();
-        this.element.checkboxDropd().click();
-        this.element.desktopCheckBox().click(); 
-    }
-
-    goToRadioButton(){
-        this.element.radioButtonBtn().click();
-    }
-
-    goToWebTables(){
-        this.element.webTablesBtn().click();
-    }
-
-    searching(item){
-        this.element.searchBar().type(item);
-        this.element.searchButton().click();
-    }
-
-    goToButtons(){
-        this.element.buttonsBtn().click();
-    }
-
-    dubleClick(){
-        this.element.doubleClickMeBtn().dblclick();
-    }
-
-    goToLinks(){
-        this.element.linksBtn().click();
-    }
-
-    clickBadRquestBtn(){
-        this.element.badRequestBtn().click();
-    }
-    
-    goToBrokenLinksImages(){
-        this.element.brokenLinksImagesBtn().click();
-    }
-
-    goToUploadDownload(){
-        this.element.uploadDownloadBtn().click();
-    }
-
-    goToDynamicProperties(){
-        this.element.dynamicPropertiesBtn().click();
-    }
 }
 
 module.exports = Elements
