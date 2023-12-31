@@ -1,5 +1,5 @@
 import ElementActions from "../../../pagesActions/elementsActions";
-import Elements from "../../../pagesObjectsActions/pageElements/elementsPageElements";
+import Elements from "../../../pagesObjects/pageElements/elementsPageElements";
 import data from "../../../cypress/data/data.json";
 
 const actions = new ElementActions();
