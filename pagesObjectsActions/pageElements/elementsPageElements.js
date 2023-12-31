@@ -25,7 +25,7 @@ class Elements {
         brokenLinksImagesBtn : () => cy.get(":nth-child(1) > .element-list > .menu-list > #item-6"),
         brokenImageP : () => cy.get(":nth-child(2) > :nth-child(5)"),
         uploadDownloadBtn : () => cy.get(":nth-child(1) > .element-list > .menu-list > #item-7"),
-        dynamicPropertiesBtn : () => cy.get(":nth-child(1) > .element-list > .menu-list > #item-8"),
+        dynamicPropertiesBtn : () => cy.get(":nth-child(1) > .element-list > .menu-list > #item-8")
     }
     
 }

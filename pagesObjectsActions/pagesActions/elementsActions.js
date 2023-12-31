@@ -1,4 +1,4 @@
-import Elements from "../pageElements/elementsElements.js"
+import Elements from "../cypress/pagesObjectsActions/pageElements/elementsPageElements.cy.js"
 import Methods from "C:/Users/r2vm/OneDrive/Escritorio/All/Code/Codes/Cypress/demoqa/Utils/generalMethods"
 
 

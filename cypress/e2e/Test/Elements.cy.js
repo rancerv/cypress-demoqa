@@ -1,6 +1,6 @@
 import ElementActions from "../../../pagesActions/elementsActions";
-import Elements from "../../../pageElements/elementsElements";
-import data from "../../../data.json";
+import Elements from "../../../pagesObjectsActions/pageElements/elementsPageElements";
+import data from "../../../cypress/data/data.json";
 
 const actions = new ElementActions();
 const elem = new Elements();
@@ -51,7 +51,7 @@ describe('Visit demoQA', () => {
 
   it('Go to Links', () => {
       actions.goToLinks();
-      elem.element.linksH5().should("have.text", data.h5);
+      elem.element.linksH5().should("have.text", data.linksText);
     })
 
   it('Bad request', () => {
