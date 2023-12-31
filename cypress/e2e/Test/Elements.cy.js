@@ -1,10 +1,9 @@
 import ElementActions from "../../../pagesActions/elementsActions";
-import Elements from "C:/Users/r2vm/OneDrive/Escritorio/All/Code/Codes/Cypress/demoqa/pageObjectsSelectors/elementsObjects";
+import Elements from "../../../pageElements/elementsElements";
+import data from "../../../data.json";
 
- const actions = new ElementActions();
- const elem = new Elements();
- const h5 = "Following links will open new tab"
- const badRequestTex = "Link has responded with staus 400 and status text Bad Request"
+const actions = new ElementActions();
+const elem = new Elements();
 
 describe('Visit demoQA', () => {
   beforeEach(() => {
@@ -52,7 +51,7 @@ describe('Visit demoQA', () => {
 
   it('Go to Links', () => {
       actions.goToLinks();
-      elem.element.linksH5().should("have.text", h5);
+      elem.element.linksH5().should("have.text", data.h5);
     })
 
   it('Bad request', () => {

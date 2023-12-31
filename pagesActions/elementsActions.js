@@ -1,4 +1,4 @@
-import Elements from "C:/Users/r2vm/OneDrive/Escritorio/All/Code/Codes/Cypress/demoqa/pageObjectsSelectors/elementsObjects.js"
+import Elements from "../pageElements/elementsElements.js"
 import Methods from "C:/Users/r2vm/OneDrive/Escritorio/All/Code/Codes/Cypress/demoqa/Utils/generalMethods"
 
 
